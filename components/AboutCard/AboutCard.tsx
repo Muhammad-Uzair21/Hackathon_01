@@ -9,7 +9,7 @@ interface CardProps {
 
 const AboutCard: React.FC<CardProps> = ({icon, heading, para}) => {
   return (
-    <div className='h-[244px] bg-light text-primary flex items-center justify-center'>
+    <div className='h-[244px] bg-light text-primary flex items-center justify-center shadow-md hover:shadow-lg'>
         <div className='flex w-[75%] h-[70%] flex-col justify-between'>
             <span className='w-[24px] h-[24px] relative'>
                 <Image src={icon} alt='/' fill/>

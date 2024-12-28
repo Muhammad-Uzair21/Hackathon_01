@@ -11,7 +11,7 @@ interface CardProps {
 const ProductCards: React.FC<CardProps> = ({ image, tag }) => {
   return (
     <div>
-      <div className="relative w-auto h-[312px] rounded-xl overflow-hidden">
+      <div className="relative w-auto h-[312px] rounded-xl overflow-hidden hover:shadow-lg">
         <Image
           src={image}
           alt="chair"
@@ -31,7 +31,7 @@ const ProductCards: React.FC<CardProps> = ({ image, tag }) => {
           <h2 className="text-primary text-[16px]">Library Stool Chair</h2>
           <h2 className="text-accentBlack text-[18px] font-semibold">$20</h2>
         </div>
-        <div className="w-11 h-11 bg-light overflow-hidden rounded flex items-center justify-center hover:bg-primary hover:text-white text-accentBlack">
+        <div className="w-11 h-11 bg-light cursor-pointer overflow-hidden rounded flex items-center justify-center hover:bg-primary hover:text-white text-accentBlack">
           <Link href="/singleproduct">
             <LuShoppingCart className=" w-5 h-5" />
           </Link>

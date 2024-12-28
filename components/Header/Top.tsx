@@ -18,7 +18,7 @@ const top = () => {
                     <span><CgChevronDown className='w-4 h-4'/></span>
                 </span>
 
-                <span><Link href="/faq">Faqs</Link></span>
+                <span className='hover:text-primary'><Link href="/faq">Faqs</Link></span>
 
                 <span className='flex items-center gap-1'>
                     <span><MdOutlineErrorOutline className='w-5 h-5'/></span>

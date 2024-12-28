@@ -8,7 +8,7 @@ interface CardProps {
 }
 const CategoryCard: React.FC<CardProps> = ({image, title, products}) => {
   return (
-    <div className='w-auto relative h-[424px] bg-gray-400 overflow-hidden rounded-xl'>
+    <div className='w-auto relative h-[424px] bg-gray-400 overflow-hidden rounded-xl hover:shadow-lg'>
         <Image src={image} alt='' fill objectFit='cover'/>
         <div className='w-full absolute bottom-0 py-4 px-6 bg-black/70 text-white'>
             <h2 className='text-xl font-semibold mb-1'>{title}</h2>

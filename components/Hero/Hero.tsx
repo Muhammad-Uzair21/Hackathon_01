@@ -16,7 +16,7 @@ const Hero = () => {
                 Best Furniture Collection for your interior.
               </h2>
               <Link href="#shop">
-                <button className=" rounded overflow-hidden flex items-center justify-around gap-3 bg-primary text-sm text-white w-[171px] h-[52px]">
+                <button className=" rounded overflow-hidden flex items-center hover:bg-[#0286ae]  justify-around gap-3 bg-primary text-sm text-white w-[171px] h-[52px]">
                   Shop Now
                   <span>
                     <HiArrowNarrowRight className="w-5 h-5" />
@@ -31,6 +31,7 @@ const Hero = () => {
                 alt="hero"
                 fill
                 objectFit="contain"
+                objectPosition="center"
               ></Image>
             </div>
           </div>

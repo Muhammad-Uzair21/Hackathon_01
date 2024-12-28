@@ -22,8 +22,8 @@ const page = () => {
                   chairs that seamlessly blend style with functionality.{" "}
                 </p>
               </div>
-              <Link href="#shop">
-                <button className=" rounded overflow-hidden flex items-center justify-around gap-3 bg-primary text-sm  w-[171px] h-[52px]">
+              <Link href="/products">
+                <button className=" rounded overflow-hidden flex items-center justify-around gap-3 hover:bg-transparent bg-primary text-sm  w-[171px] h-[52px]">
                   View Collection
                 </button>
               </Link>
@@ -73,8 +73,8 @@ const page = () => {
             <h2 className="text-accentBlack text-[32px] font-semibold">Our Popular Products</h2>
             <div className="grid grid-cols-1 gap-4 md:grid-cols-4 ">
                 <div className="md:col-span-2"><AboutGrid image="/images/large.png" name="The Poplar suede sofa"/></div>
-                <div className="col-span-1"><AboutGrid image="/images/aboutimg2.png" name="The Poplar suede sofa"/></div>
-                <div className="col-span-1"><AboutGrid image="/images/aboutimg3.png" name="The Poplar suede sofa"/></div>
+                <div className="col-span-1"><AboutGrid image="/images/aboutimg2.png" name="The Dandy chair"/></div>
+                <div className="col-span-1"><AboutGrid image="/images/aboutimg3.png" name="The Dandy chair"/></div>
             </div>
           </div>
 

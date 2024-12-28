@@ -7,7 +7,7 @@ interface CardProps{
 
 const AboutGrid:React.FC<CardProps> = ({image, name}) => {
   return (
-    <div className='flex flex-col gap-3'>
+    <div className='flex flex-col gap-3 hover:shadow-lg'>
         <div className='w-full h-[375px] relative'>
             <Image src={image} alt='/' fill objectFit='cover'/>
         </div>
